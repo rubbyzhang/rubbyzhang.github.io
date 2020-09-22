@@ -1,7 +1,17 @@
-*.gem
-.bundle
-.DS_Store
-.sass-cache
+# hidden files
+.*
+
+# python compiled files
+*.pyc
+
+# jekyll debug
 _site
+
+# Jeykll Gemfile.lock
 Gemfile.lock
-.jekyll-cache
+
+# yui-compressor
+*.jar
+
+# bundle cache
+vendor
